@@ -69,6 +69,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'funding.context_processors.get_all_categorias',
+                'funding.context_processors.get_formas_pago'
             ],
         },
     },
@@ -173,8 +175,3 @@ LOGGING = {
         'level': 'ERROR',  # Nivel de registro que se desea ver
     },
 }
-
-
-CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOW_CREDENTIALS = False
-CORS_ALLOWED_ORIGINS = ['https://beefunding3.azurewebsites.net', 'https://crowdfoundig.blob.core.windows.net']
