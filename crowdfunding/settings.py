@@ -177,4 +177,4 @@ LOGGING = {
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = False
-CORS_ALLOWED_ORIGINS = ['*']
+CORS_ALLOWED_ORIGINS = ['https://beefunding3.azurewebsites.net', 'https://crowdfoundig.blob.core.windows.net']
