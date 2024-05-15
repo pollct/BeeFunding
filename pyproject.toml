@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["pollct <poll.cedeno@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "4.2.11"
+django-extensions = "^3.2.3"
+psycopg2-binary = "^2.9.9"
+pillow = "^10.3.0"
+django-environ = "^0.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
