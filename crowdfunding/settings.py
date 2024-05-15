@@ -173,3 +173,6 @@ LOGGING = {
         'level': 'ERROR',  # Nivel de registro que se desea ver
     },
 }
+
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
