@@ -134,7 +134,7 @@ AZURE_ACCOUNT_NAME = env('AZURE_ACCOUNT_NAME')
 AZURE_ACCOUNT_KEY = env('AZURE_ACCOUNT_KEY')
 AZURE_CUSTOM_DOMAIN = f'{AZURE_ACCOUNT_NAME}.blob.core.windows.net'
 
-if DEBUG:    
+if DEBUG == True:    
     STATIC_URL = '/static/'
     MEDIA_URL = '/media/'
 else:
